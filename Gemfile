@@ -15,7 +15,7 @@ gem 'pundit'
 gem 'rails', '~> 5.1.4'
 gem 'redis', '~> 3.0'
 gem 'sass-rails', '~> 5.0'
-gem 'slim'
+gem 'slim-rails'
 gem 'turbolinks', '~> 5'
 gem 'uglifier', '>= 1.3.0'
 
