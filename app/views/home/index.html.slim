@@ -1,1 +1,5 @@
-h1 hello world
+. = link_to(t('sign_in'), new_user_session_path)
+. = link_to(t('sign_up'), new_user_registration_path)
+
+- if user_signed_in?
+  . = link_to(t('log_out'), destroy_user_session_path, method: :delete)
